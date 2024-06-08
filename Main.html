@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire Lawyer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+
+        body {
+            background-image: url(1.jpeg);
+            background-size: cover;
+        }
+
+        .navbar {
+            background-color: #083f6d;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100px;
+            width: 100%;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            padding: 10px;
+            color: white;
+        }
+
+        .navbar a:hover,
+        .dropdown:hover .drop-btn {
+            /* border: 2px solid white; */
+            /* padding:2px; */
+            text-decoration: underline;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #083f6d;
+            min-width: 160px;
+            border: 2px solid white;
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .main {
+            background-image: url(1.jpeg);
+            background-size: cover;
+            height: 100rem;
+        }
+
+        .container{
+            background: transparent;
+            border: 2px solid white;
+            padding: 20px;
+            text-align: center;
+            height:600px;
+            /* width: 600px; */
+            display: flex;
+            /* position: absolute; */
+            justify-content: center;
+            align-items: center;
+            /* align-content: center; */
+        }
+
+        .container div{
+            height: 400px;
+            width: 400px;
+            background: rgba(68, 68, 160,0.6);
+            margin: 10px 10px;
+            padding-top: 10px;
+            font-size: 24px;
+        }
+
+        footer div{
+            height: 100px;
+            width: 100%;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            bottom:0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#">Hire Lawyer</a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li class="dropdown"><a href="#" class="drop-btn">Rights</a>
+                <div class="dropdown-content">
+                    <a href="#"></a>
+                    <a href="#">Human Rights</a>
+                    <a href="#">Right to Equality</a>
+                    <a href="#">Right to Vote</a>
+                </div>
+            </li>
+            <li class="dropdown"><a href="#" class="drop-btn">Cases</a>
+                <div class="dropdown-content">
+                    <a href="#">Family Law</a>
+                    <a href="#">Criminal Law</a>
+                    <a href="#">Corporate Law</a>
+                    <a href="#">Personal Law</a>
+                </div>
+            </li>
+            <li><a href="#">Testomonials/Review</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="Login.html">Login/Sign Up</a></li>
+        </ul>
+    </nav>
+
+    <div class="main">
+        <div class="container">
+            <div div="box1">Civil Cases</div>
+            <div div="box2">Criminal Cases</div>
+            <div div="box3">Notary/Affidavit</div>
+        </div>
+    </div>
+
+    <footer>
+        <div>Copyright @ 2024</div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color: #e0e4ee;
+    overflow: hidden;
+}
+
+.login_form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* padding: 30px; */
+    border: 2px solid;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    width: 300px;
+    height: 270px;
+    border: 2px solid #353755;
+    border-radius: 8px;
+}
+
+.login_form h2 {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    background-color: #353755;
+    color: white;
+    border-radius: 6px;
+}
+
+.login_form .input_box{
+    /* position: absolute; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 13px;
+    background: none;
+    outline: none;
+    text-align: center;
+}
+
+.input_box.acive{
+    outline: none;
+}
+
+.option_field .checkBox {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.button {
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 3px;
+    margin-top: 10px;
+    width: 50%;
+}
+
+.login_signup {
+    margin-top: 10px;
+    text-align: center;
+}
